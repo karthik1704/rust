@@ -6,9 +6,14 @@
 - only letters, digit and underscores
 - only startwith letters and underscores
 - case sensitive
+- style - **snake_case**
 
 ```rust
 let x:i32 = 5; //immutable
+
+let y:i32; //rare but we can do
+y=2+2; 
+
 let mut y:i32 = 15; //mutabale
 y=20;
 ```

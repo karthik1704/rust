@@ -36,12 +36,12 @@ y=20;
 - 2 types
     - Signed integers (stores positive and negative values)
         - assiged by i
-        - 4 types
-          - i8, i16, i32, i64
+        - 5 types
+          - i8, i16, i32, i64, i128
     - Unsigned intergres ( only stores postive values)
         - assigned by u
-        - 4 types
-            - u8, u16, u32, u64
+        - 5 types
+            - u8, u16, u32, u64, u128
 - To check max value of types
   ```rust
   println!(std::i8::MAX);

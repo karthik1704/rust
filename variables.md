@@ -2,6 +2,7 @@
 
 - Statically typed
 - all variable are immutable
+- we can assign **mut** keyword to make variable mutable
 - only letters, digit and underscores
 - only startwith letters and underscores
 - case sensitive

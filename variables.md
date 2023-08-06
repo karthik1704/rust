@@ -5,7 +5,7 @@
 - only letters, digit and underscores
 - only startwith letters and underscores
 - case sensitive
-- 
+
 ```rust
 let x:i32 = 5; //immutable
 let mut y:i32 = 15; //mutabale

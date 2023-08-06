@@ -41,3 +41,37 @@ y=20;
   ```rust
   println!(std::i8::MAX);
   ```
+
+#### Float
+
+  - Numbers with dicimal points
+  - 2 types
+        - f64 (default type for float)
+        - f32
+
+> **Warning**
+> In Rust we can't perform mathmatical operations on different types. if we want we have to convert one of them to other type
+
+  ```rust
+  let z:f64 = 3.14;
+  ```
+#### Boolean
+
+- Two possible value true or false
+- Rust don't accept truthly or flasly value
+- assing by **bool** keyword
+```rust
+let status:bool = flase;
+let not_equals:bool = 18 != 18; 
+```
+#### Characters
+- Single letter, digit, emoji's or unicode scalar values
+- only in single quotes
+
+```rust
+let c1: char = 'c';
+let c2: char = '4';
+let c3: char = '+';
+let c4: char = '\u{288A}';
+let c5: char = '\"';
+```
